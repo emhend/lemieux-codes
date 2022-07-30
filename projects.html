@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -26,7 +27,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;1,100&display=swap"
       rel="stylesheet"
     />
     <!--Font Awesome-->
@@ -38,51 +39,17 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <nav
-      class="navbar navbar-dark text-white navbar-expand-lg fixed-top"
-      style="background-color: rgb(240, 150, 215, 0.8)"
-    >
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            <a class="nav-link" href="about.html">About Me</a>
-            <a class="nav-link active" href="projects.html">Projects</a>
-            <a class="nav-link" href="contact.html">Contact Me</a>
-          </div>
-        </div>
-      </div>
-    </nav>
     <div class="text-container">
       <h1>My Projects</h1>
-    </div>
     <div class="container">
-      <div class="row align-items p-3">
-        <div class="col-sm padding-top">
-          <img src="images/wine.png" class="img-fluid certificates" />
-          <h4>USNaturalWine.com</h4>
+      <div class="project-container">
+          <img src="images/wine.png" class="certificates" />
+          <h3>USNaturalWine.com</h3>
           <p class="p-projects">Built with Shopify + Liquid</p>
-          <a
-            href="https://usnaturalwine.com/"
-            class="project-link"
-            target="_blank"
-            >View Live→</a
-          >
-        </div>
-        <div class="col-sm padding-top">
+          </div>
+          <div class="project-container">
           <img src="images/reactweather.png" class="img-fluid certificates" />
-          <h4>React Weather App</h4>
+          <h3>React Weather App</h3>
           <p class="p-projects">Built with React</p>
           <a
             href="https://github.com/emhend/weather-react"
@@ -96,13 +63,10 @@
             class="project-link"
             target="_blank"
             >View Live→</a
-          >
-        </div>
-      </div>
-        <div class="row align-items p-3">
-          <div class="col-sm padding-top">
+          ></div>
+          <div class="project-container">
           <img src="images/weatherapp.png" class="img-fluid certificates" />
-          <h4>Weather App</h4>
+          <h3>Weather App</h3>
           <p class="p-projects">Built with HTML, CSS, and JavaScript</p>
           <a
             href="https://github.com/emhend/weather-app2"
@@ -116,11 +80,10 @@
             class="project-link"
             target="_blank"
             >View Live→</a
-          >
-        </div>
-        <div class="col-sm padding-top">
+          ></div>
+          <div class="project-container">
           <img src="images/dictionary.png" class="img-fluid certificates" />
-          <h4>React Dictionary</h4>
+          <h3>React Dictionary</h3>
           <p class="p-projects">Built with React</p>
           <a
             href="https://github.com/emhend/dictionary-project"
@@ -130,30 +93,31 @@
           ><br />
           <a href="https://elegant-hopper-5b7dbe.netlify.app/" class="project-link" target="_blank"
             >View Live→</a
-          >
+          ></div>
         </div>
+        <div class="nav">
+        <a class="nav-link" href="index.html">Home</a
+        ><a class="nav-link" href="projects.html">Portfolio</a
+        ><a class="nav-link" href="skills.html">Skills</a><a class="nav-link" href="contact.html">Contact Me</a>
+        
+
+      </div>
         </div>
+          
+      
       </div>
     </div>
     <footer>
-      <a href="https://www.linkedin.com/in/emilyjhend/" target="_blank"
-        ><i class="fab fa-linkedin icon"></i
+      <a href="https://www.linkedin.com/in/emilyjhend/"
+         target="_blank"><i class="fab fa-linkedin icon"></i
       ></a>
-      <a href="https://github.com/emhend" target="_blank"
-        ><i class="fab fa-github-square icon"></i
+      <a href="https://github.com/emhend"
+         target="_blank"><i class="fab fa-github-square icon"></i
       ></a>
-      <a href="mailto:emilyjhendersonn@gmail.com" target="_blank"
-        ><i class="fas fa-at icon"></i
+      <a href="mailto:emilyjhendersonn@gmail.com"
+        target="_blank"><i class="fas fa-at icon"></i
       ></a>
-      <p>
-        This is an open source code by
-        <a
-          href="https://github.com/emhend/portfolio-project"
-          class="project-link"
-          target="_blank"
-          >Emily Henderson</a
-        >
-      </p>
+      <p>This is an open source code by <a href="https://github.com/emhend/portfolio-project" class="project-link" target="_blank">Emily Henderson</a></p>
     </footer>
   </body>
 </html>
